@@ -1,7 +1,4 @@
-# RLChina2021 SummerCourse 大作业
-
-## 任务：贪吃蛇 snakes_1v1 - 算法自定义 - 作业要求：提交到Jidi平台习题课擂台，且最终排名高于Jidi_random
-提交链接：[RLChina2021暑期习题课擂台](http://www.jidiai.cn/compete_detail?compete=7#competitionRule)
+## 任务：贪吃蛇 snakes_1v1 - 算法自定义 - 提交到Jidi平台习题课擂台
 
 
 ### Dependency
@@ -35,6 +32,8 @@ Once you run this file, you can locally check battle logs in the folder named "l
 
 Have fun~
 
-
+### 改进
+基于baseline的DQN算法
+将训练时对抗的agent设为贪心策略，修改训练的critic模型的宽度和深度  提交的submission是基于训练的critic模型和手写的考虑一到两步的策略
 
 
